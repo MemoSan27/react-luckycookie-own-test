@@ -75,7 +75,7 @@ h1{
 }
 .phrase::after{
     content: '';
-    background-image: url('/src/assets/comilla.png');
+    background-image: url('assets/comilla.png');
     background-size: 1.5rem;
     background-repeat: no-repeat;
     width: 1.5rem;

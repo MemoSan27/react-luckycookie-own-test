@@ -15,7 +15,7 @@ const Background = () => {
     <div>
       <div 
         className='background' 
-        style={{ backgroundImage: `url("src/assets/fondo${ randomImage }.jpg")` 
+        style={{ backgroundImage: `url("assets/fondo${ randomImage }.jpg")` 
          }}
         
          >
@@ -25,7 +25,7 @@ const Background = () => {
             <Phrase 
               randomPhrase={randomPhrase}
             />
-            <img className='card' src='src/assets/rectangle1.svg' alt='Img Rectangle'></img>
+            <img className='card' src='assets/rectangle1.svg' alt='Img Rectangle'></img>
             </div> 
             <Button
               setRandomPhrase={setRandomPhrase}
